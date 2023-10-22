@@ -9960,3 +9960,11 @@ h6,
 .bg-{
   background-color:#c2c0c0;
 }
+
+#whatsapp-button {
+  position: fixed;
+  font-size: 24px;
+  bottom: 90px;  /* Adjust this value to change the vertical position */
+  right: 30px;    /* Adjust this value to change the horizontal position */
+  z-index: 1000; /* Ensure the button appears above other content */
+}
